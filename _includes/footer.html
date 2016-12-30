@@ -91,15 +91,50 @@
 	<button href="#top" id="backToTopBtn" class="btn btn-md scroll"><span class="glyphicon glyphicon-chevron-up"></span></button>
 
     <!-- jQuery -->
-	<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src='{{ "js/megamenu.js" | prepend: site.baseurl }}'></script>
 	<script src='{{ "js/bootstrap.js" | prepend: site.baseurl }}'></script>
+	<script src='{{ "js/owl.carousel.min.js" | prepend: site.baseurl }}'></script>
+	<script>
+		$(document).ready(function(){
+  $(".owl-carousel").owlCarousel();
+});
+	</script>
+
+	<script>
+		$('.owl-carousel').owlCarousel({
+		loop:true,
+		margin:12,
+		responsiveClass:true,
+		navigation:true,
+		navText: [
+		 "<i class='icon-chevron-left icon-white'><</i>",
+		"<i class='icon-chevron-right icon-white'>></i>"
+		],
+		responsive:{
+			0:{
+				items:1,
+				nav:true
+			},
+			600:{
+				items:3,
+				nav:true
+			},
+			1000:{
+				items:5,
+				nav:true,
+				loop:false
+			}
+		}
+	})
+	</script>
 
 	<!-- Script to Activate the Carousel -->
     <script>
     $('.carousel').carousel({
     })
     </script>
+		
 
 
   <script>
