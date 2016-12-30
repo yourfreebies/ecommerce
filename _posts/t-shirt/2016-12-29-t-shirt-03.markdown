@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "T-shirt 03"
+date:   2016-08-08
+categories: ['t-shirt']
+tags: tops
+
+# author
+author: AIR RAYA GROUP
+---
+![T-shirt]({{ site.baseurl }}/assets/isolated-t-shirt-1852115_1920.png){:class="img-responsive img-product"}
+<div class="produk" markdown='1'>
+
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="N3PLJ3GXYBXKE">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+
+<p>
+<span class="glyphicon glyphicon-star"></span>
+<span class="glyphicon glyphicon-star"></span>
+<span class="glyphicon glyphicon-star"></span>
+<span class="glyphicon glyphicon-star"></span>
+<span class="glyphicon glyphicon-star-empty"></span>
+</p>
+								
+#### CA$ 10.00
+
+Stock: `Available`
+
+SKU: 429275
+
+</div>
+
+<!-- more -->
+
+
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+ <body>
+<div id="wrapper">
+ {% include header.html %}
+ <div class="container">
+	<div class="row">
+        <div class="box">
+                <div class="col-lg-8">
+                    <div class="intro-text text-left">
+					<h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+					</div>
+					 {{ content }}
+                </div>
+				<div class="col-lg-4">
+					  {% include sidebarhome.html %}
+				</div>
+        </div>
+	</div>
+  
+  {% include comment.html %}
+</div>
+<hr>
+ {% include footer.html %}
+</div>
+  </body>
+
+</html>
